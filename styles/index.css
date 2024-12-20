@@ -500,7 +500,7 @@ div#theme-picker button {
 }
 
 .theme-2 .container {
-    width: 1170px;
+    max-width: 1170px;
     margin: auto;
     height: 100%;
     padding: 0 25px;
