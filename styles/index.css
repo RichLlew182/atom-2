@@ -35,6 +35,12 @@ div#theme-picker button {
     font-family: 'DM Sans', sans-serif;
 }
 
+.theme-1 * {
+    -webkit-transition: all .3s;
+    -o-transition: all 0.3s;
+    transition: all .3s;
+}
+
 .theme-1 h1,
 .theme-1 h2,
 .theme-1 h3,
@@ -144,9 +150,6 @@ div#theme-picker button {
     text-decoration: none;
     color: #333;
     font-size: 1rem;
-    -webkit-transition: color 0.3s;
-    -o-transition: color 0.3s;
-    transition: color 0.3s;
 }
 
 .theme-1 .navbar .nav-links a:hover {
@@ -358,9 +361,6 @@ div#theme-picker button {
     -webkit-text-fill-color: white;
     padding: 10px 0;
     border-bottom: 1px solid white;
-    -webkit-transition: ease .3s;
-    -o-transition: ease .3s;
-    transition: ease .3s;
 }
 
 .theme-1 input:focus {
@@ -423,6 +423,12 @@ div#theme-picker button {
 }
 
 /*--------- Theme-2 --------*/
+
+.theme-2 * {
+    -webkit-transition: all .3s;
+    -o-transition: all 0.3s;
+    transition: all .3s;
+}
 
 .theme-2 h1,
 .theme-2 h2,
@@ -560,9 +566,6 @@ div#theme-picker button {
     letter-spacing: 1px;
     color: #333;
     font-size: 14px;
-    -webkit-transition: color 0.3s;
-    -o-transition: color 0.3s;
-    transition: color 0.3s;
 }
 
 .theme-2 .navbar .nav-links a:hover {
@@ -767,9 +770,6 @@ div#theme-picker button {
     background: rgb(255 255 255 / 30%);
     color: white;
     -webkit-text-fill-color: white;
-    -webkit-transition: ease .3s;
-    -o-transition: ease .3s;
-    transition: ease .3s;
     width: 100%;
 }
 
