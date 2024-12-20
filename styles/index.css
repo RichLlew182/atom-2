@@ -695,6 +695,11 @@ div#theme-picker button {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 0px;
     flex: 1 1 0;
+    max-width: 50%;
+}
+
+.theme-2 .input-group {
+    max-width: 100% !important;
 }
 
 .theme-2 .text-box {
